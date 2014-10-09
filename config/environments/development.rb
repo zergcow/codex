@@ -34,4 +34,7 @@ Codex::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # Something from a gem called devise for login and stuff
+  config.action_mailer.default_url_options = {host: 'localhost', port:0}
 end
